@@ -1,5 +1,5 @@
-height = float(input())
-weight = int(input())
+height = float(input("What's your height?"))
+weight = int(input("What's your weight?"))
 BMI = weight / height ** 2
 BMI = "{:.5f}".format(BMI)
 if BMI < "18.5":
