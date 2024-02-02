@@ -28,9 +28,10 @@ scissors = '''
 '''
 
 
-numero_random = random.randint(0,2)
+
 tentativas = 0
 while tentativas < 3:
+  numero_random = random.randint(0,2)  
   tentativas += 1
   choice = input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.")
   if choice == "0":
